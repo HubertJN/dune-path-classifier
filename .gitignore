@@ -3,3 +3,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.egg-info/
 .DS_Store
+data/
+*.h5
+*.part

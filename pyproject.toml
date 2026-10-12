@@ -10,7 +10,12 @@ dependencies = [
     "matplotlib",
     "scikit-learn>=1.4",
     "ipykernel",
+    "h5py",
+    "pandas",
 ]
+
+[project.optional-dependencies]
+data = ["fsspec[http]", "aiohttp", "requests"]
 
 [build-system]
 requires = ["setuptools>=61"]
